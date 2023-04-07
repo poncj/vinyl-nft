@@ -29,7 +29,7 @@ npm i
 4. Type next command. It will deploy the contract.
 
 ```bash
-npx hardhat run scripts/deploy.js
+npx hardhat run scripts/deploy.js --network tbnb
 ```
 
 4. Аfter executing the previous command in the terminal we should see the contract address. You must copy this address and specify it in your .env as `TBNB_CONTRACT_ADDRESS`.
