@@ -4,7 +4,8 @@
 
 Everything in the `/deploy/` folder is intended to be used on local machine.
 
-Everything in the `/production/` folder is intended to be uploaded to the hosting.
+Everything in the `/production/` folder is for use on the local machine and for configuring the frontend of the application.
+At the end of the setup you will have an `/out/` folder to upload to the hosting.
 
 So for a successful installation, we must first deploy the contract, and then upload the files from the production folder to the hosting.
 
