@@ -40,10 +40,28 @@ This is where the deployment of contract ends. Now we need to configure the file
 
 1. Open /production/ folder via VS Code.
 
-2. Specify the `RPC_URL`, and `CONTRACT_ADDRESS` parameters you specified earlier in the .env file in config.js
+2. In `/constants/constants.js` specify the `CONTRACT_ADDRESS`, as `TBNB_CONTRACT_ADDRESS` you specified earlier in the .env.
 
-3. Specify `TESTNET_ID` as chain_id
+3. Open terminal and start to execute commands:
 
-This ends the setup of the /production/ folder. Now you need to upload the files of the /production/ folder to the hosting.
+This command will install everything you need to configure the frontend for application
+
+```bash
+npm i
+```
+
+4. Type next command. It will build frontend files for application.
+
+```bash
+npx next build
+```
+
+5. Type next command. It will prepare frontend files for upload.
+
+```bash
+npx next export
+```
+
+Now you will see that we have a new directory `/production/out/`. You need to upload the files of the `/out/` folder to the hosting.
 
 ## Done!
