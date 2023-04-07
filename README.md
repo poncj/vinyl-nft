@@ -32,7 +32,7 @@ npm i
 node deploy.js
 ```
 
-4. Аfter executing the previous command in the terminal we should see the contract address. You must copy this address and specify it in your .env as `CONTRACT_ADDRESS`.
+4. Аfter executing the previous command in the terminal we should see the contract address. You must copy this address and specify it in your .env as `TBNB_CONTRACT_ADDRESS`.
 
 This is where the deployment of contract ends. Now we need to configure the files of the /production/ folder.
 
