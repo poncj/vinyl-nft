@@ -1,5 +1,8 @@
 # Assignment 4 | Vinyl NFT | Next.js
 
+Live demo: https://next.npiv.ru/
+> Works only on TBNB!
+
 ## How to use
 
 Everything in the `/deploy/` folder is intended to be used on local machine.
